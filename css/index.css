@@ -1,26 +1,27 @@
+/* nav */
 li{
     list-style: none;
 }
 
 a{
     text-decoration: none;    
-}
+}    
 
 nav{
-    padding: 5px 50px;
-    border: 1px solid #efefef;   
-    height: 70px;
+    padding: 0.3125rem 3.125rem;
+    border: 0.0625rem solid #efefef;   
+    height: 4.375rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 ul{    
     margin-right: 3rem;
-    width: 320px;
+    width: 20rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -28,51 +29,132 @@ ul{
 }
 
 nav ul li{  
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #575050;
 }
 
-#brand{
-    /* border: 1px solid #efefef; */
-    width: 380px;
-    height: 60px;
-    padding-left: 10px;
+#brand{    
+    width: 23.75rem;
+    height: 3.75rem;
+    padding-left: 0.625rem;
     cursor: pointer;
 }
 
+/* section imagem */
 #img-home{
     background-image: url("../images/hair.jpg");
+    background-color: rgba(0,0,0,.6);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: fixed;
-    opacity: 0.5;
-}
-
-#text-home{
-    font-size: 36px;
-    font-weight: bold;
-    color: #575050;
-    width: 70%;
-    /* height: 55vh; */
-    z-index: 100;
-    line-height: 36px;
-    text-align: center;
+    position: sticky;
     
 }
 
-#btn-agendar{
-    z-index: 100;
+#text-img{
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #575050;
+    width: 70%;    
+   
+    line-height: 2.25rem;
+    text-align: center;    
+    
 }
 
-#div-text-home{
+#div-text-img{    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;    
-    z-index: 200;
+    width: 50%;  
     height: 65vh;
+   
+}
+
+#section-img{
+    height: 100vh;    
+}
+
+
+/* section about */
+#section-about{
+    width: 62%;
+    flex-direction: column;
+    padding: 0.75rem;
+    margin: 0 auto;
+    
+}
+
+#section-about h1{
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#section-about h1:first-child{
+    margin-top: 6.25rem;
+}
+
+#section-about .text-about{
+    font-size: 2rem;
+    text-align: center;
+    color:#4F4F4F;
+}
+
+
+/* section service */
+#div-service{
+    margin-top: 3.125rem;
+}
+
+#div-service h1{
+    margin-bottom: 3.125rem;
+}
+
+.service-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+    margin: 3.125rem 0;  
+}
+
+.text-service{
+    width: 50%;
+    flex-direction: column;
+}
+
+.service-content h2{
+    text-align: center;
+    padding: 0.625rem;
+    font-size: 1.875rem;
+    text-transform: uppercase;
+}
+
+.service-content p{
+    font-size: 1.5rem;
+    color: #4F4F4F;
+    text-align: center;
+    margin: 0;
+}
+
+.rounded{
+    width: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+
+.service-content img{
+    width: 360px;
+    height: 340px;
+    border-radius: 100%;
+}
+
+.second-p{
+    margin-top: 1.25rem !important;
 }
