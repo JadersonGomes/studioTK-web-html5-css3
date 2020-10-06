@@ -38,6 +38,7 @@ img{
     color: #615F5F;
     cursor: pointer;
     box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    outline: none;
 }
 
 .block{
@@ -57,6 +58,7 @@ img{
     color: #ffff;
     cursor: pointer;
     box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    outline: none;
 }
 
 .btn-orange:hover{
@@ -68,4 +70,22 @@ img{
     background-color: #E4881B;
     color: #FFFFFF;
     transition: 0.6s;
+}
+
+.input-pattern{
+    padding: 1rem;
+    border: 1px solid #6c6c6c;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.border-gray{
+    border: 1px solid #615F5F;
+}
+
+.input-effect{
+    box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    /* transform: scale(1.1); */
+    transition: 0.3s;
+    border: 1px solid #a6a6a6;
 }

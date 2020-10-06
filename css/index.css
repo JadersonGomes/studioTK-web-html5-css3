@@ -158,3 +158,156 @@ nav ul li{
 .second-p{
     margin-top: 1.25rem !important;
 }
+
+
+/*SECTION FOTOS*/
+#section-gallery{
+    width: 100%;
+    
+}
+
+div#pictures{
+
+    display: grid;
+    grid-template-areas: 'f1 f1 f2 f3'
+                         'f1 f1 f4 f5'
+                         'f6 f7 f4 f5';
+    margin: 10rem auto 3rem auto;
+    width: 70%;
+    min-height: 800px;
+    box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);;
+
+}
+
+.picture1{
+grid-area: f1;
+background-color: yellow;
+}
+
+.picture2{
+    grid-area: f2;
+background-color: gray;
+}
+
+.picture3{
+    grid-area: f3;
+background-color: red;
+}
+
+.picture4{
+    grid-area: f4;
+background-color: black;
+}
+
+.picture5{
+    grid-area: f5;
+background-color: lightgray;
+}
+
+.picture6{
+    grid-area: f6;
+background-color: green;
+}
+
+.picture7{
+    grid-area: f7;
+background-color: blue;
+}
+
+#btn-see-more{
+    font-size: 1.2em;
+    padding: 25px;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* SECTION FORM */ 
+
+#section-schedule{
+    margin: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#section-schedule h1{
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+}
+
+#div-fields{
+    margin: 0 auto 5rem auto;
+    display: grid;
+    grid-gap: 1rem;
+    width: 50%;
+    grid-template-areas: 'c1 c1'
+                         'c3 c4'
+                         'c5 c6';
+}
+
+#input-name{
+    grid-area: c1;
+}
+
+#input-telephone{
+    grid-area: c3;
+}
+
+#input-service{
+    grid-area: c4;
+}
+
+#input-date{
+    grid-area: c5;
+}
+
+#input-hour{
+    grid-area: c6;
+}
+
+#btn-open-wpp{
+    background-color: #60B758;
+}
+
+#div-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div-buttons p {
+    text-align: center;
+    color: #575050;
+}
+
+/*SECTION FOOTER*/
+#section-footer{
+    width: 100%;
+}
+
+footer{
+    min-height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -0.25rem 0.25rem rgba(0, 0, 0, 0.13);
+    /* border-top: 1px solid rgba(0, 0, 0, 0.15);; */
+}
+
+footer p{
+    color: #575050;
+}
