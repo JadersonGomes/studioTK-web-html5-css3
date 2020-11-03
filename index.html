@@ -19,34 +19,43 @@
 
 <body>
 
-    <section class="home-page">
-        <header>
-            <nav>
-                <div id="brand" class="align-center">
-                    <img src="images/svg/logo.svg">
+    <section class="home-page">       
 
+        <header> 
+
+            <div class="container-header">
+                <img src="images/svg/logo.svg">        
+        
+                <div id="menu-toggle" onclick="showMenu();">
+                    <div id="one"></div>
+                    <div id="two"></div>
+                    <div id="three"></div>
                 </div>
-
-                <div class="align-right">
-                    <ul>
-                        <a href="#">
-                            <li>Sobre</li>
-                        </a>
-
-                        <a href="#">
-                            <li>Galeria</li>
-                        </a>
-
-                        <a href="#">
-                            <li>Contato</li>
-                        </a>
-
-                    </ul>
-                </div>
-
-
-                <button id="btn-login" class="btn-pattern">Área Restrita</button>
-            </nav>
+        
+                <nav>
+                    <div id="menu-nav" >
+                        <ul>
+                            <a href="#">
+                                <li>Sobre</li>
+                            </a>
+        
+                            <a href="#">
+                                <li>Galeria</li>
+                            </a>
+        
+                            <a href="#">
+                                <li>Contato</li>
+                            </a>
+        
+                        </ul>
+                    </div>
+        
+                    <button id="btn-login" class="btn-pattern">Área Restrita</button>
+        
+                </nav>        
+        
+            </div>
+        
         </header>
 
         <section id="section-img" class="block">

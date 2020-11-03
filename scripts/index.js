@@ -14,3 +14,21 @@ document.querySelectorAll('.input-pattern').forEach((item, valor) => {
 
 
 });
+
+
+
+function showMenu(){
+
+    let header = document.querySelector('header');
+    let body = document.querySelector('body');
+
+    if(header.classList == ""){
+        header.classList.add('on');        
+        body.classList.add('hidden-ovw');
+    }        
+    else{
+        body.classList.remove('hidden-ovw');
+        header.classList.remove('on');
+    }        
+    
+}
