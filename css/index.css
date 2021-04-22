@@ -26,14 +26,13 @@ header{
 }
 
 nav{
-    padding: 0.3125rem 3.125rem;
-   
+    padding: 0.3125rem 3.125rem;   
     height: 4.375rem;
     width: 100%;
     max-width: 1100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     
 }
@@ -170,9 +169,9 @@ nav ul li{
 }
 
 .service-content img{
-    width: 360px;
-    height: 340px;
-    border-radius: 100%;
+    width: 21.875rem;
+    height: 21.875rem;
+    border-radius: 50%;
 }
 
 .second-p{
@@ -446,4 +445,42 @@ footer p{
         justify-content: space-between;
     }
 
+    #div-text-img {
+        width: 70%;
+
+    }
+
+}
+
+
+@media (max-width: 768px){
+    html{
+        font-size: 14px;
+    }
+
+    #div-text-img {
+        width: 100%;
+        
+
+    }
+
+    #text-img{
+        color: white;
+    }
+
+    #img-home{
+        background-image: url("../images/maquiagem3.jpg");
+        
+        
+    }
+
+    #img-home::after{
+        content: "";
+        opacity: 0.3;
+        background-image: url("../images/maquiagem3.jpg");
+        
+        
+    }
+
+   
 }
